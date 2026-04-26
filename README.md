@@ -205,7 +205,7 @@ L'application offre une interface moderne et intuitive divisée en trois section
 
 ### Aperçu de l'application
 
-![Application Streamlit - Prédiction des Prix Immobiliers](apercu_streamlit.png)
+![Application Streamlit - Prédiction des Prix Immobiliers](Images/Aperçu_streamlit1.png)
 
 *Vue de l'application Streamlit montrant le formulaire de saisie et les résultats de prédiction*
 
