@@ -45,9 +45,6 @@ GOLD   — Encodage des variables catégorielles (0/1, ordinal)
    │
    ▼
 ML     — Modèles enregistrés, prédictions, Registry
-```
-
-![Architecture](architecture.drawio) <!-- Assuming you have a diagram -->
 
 ---
 
@@ -193,8 +190,6 @@ Une application **Streamlit in Snowflake** permet aux utilisateurs métier d'int
 - Affichage du prix estimé, de la comparaison au prix moyen du dataset
 - Indication de la gamme de prix (Bas / Moyen / Élevé)
 - Récapitulatif des caractéristiques saisies
-
-![Application Streamlit](screenshot_streamlit.png) <!-- Placeholder for screenshot -->
 
 ---
 
