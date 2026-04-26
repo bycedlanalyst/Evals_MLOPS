@@ -46,7 +46,6 @@ GOLD   — Encodage des variables catégorielles (0/1, ordinal)
    ▼
 ML     — Modèles enregistrés, prédictions, Registry
 ```
-
 ---
 
 ## Dataset
@@ -185,14 +184,30 @@ Chaque version est un **Pipeline sklearn complet** (StandardScaler + GradientBoo
 
 Une application **Streamlit in Snowflake** permet aux utilisateurs métier d'interagir avec le modèle sans connaissance technique.
 
-**Fonctionnalités :**
-- Saisie des caractéristiques de la maison via une interface intuitive
-- Prédiction en temps réel via le modèle v2 du Registry
-- Affichage du prix estimé, de la comparaison au prix moyen du dataset
-- Indication de la gamme de prix (Bas / Moyen / Élevé)
-- Récapitulatif des caractéristiques saisies
+### Interface utilisateur
 
-![Application Streamlit](screenshot_streamlit.png) <!-- Placeholder for screenshot -->
+L'application offre une interface moderne et intuitive divisée en trois sections principales :
+
+**Caractéristiques de la maison :**
+- **Caractéristiques principales** : Surface, nombre de chambres et salles de bain
+- **Structure** : Nombre d'étages, places de parking, présence d'un sous-sol
+- **Équipements** : Route principale, chambre d'amis, chauffage, climatisation
+- **Confort et emplacement** : Zone privilégiée, statut d'ameublement
+
+**Fonctionnalités :**
+- Saisie interactive des caractéristiques via des sliders et dropdowns
+- Prédiction en temps réel via le modèle v2 Gradient Boosting optimisé
+- Affichage du prix estimé en euros
+- Comparaison automatique au prix moyen du marché (avec écart en %)
+- Indication visuelle de la gamme de prix (Bas 🟢 / Moyen 🟡 / Élevé 🔴)
+- Récapitulatif détaillé des caractéristiques saisies
+- Sidebar avec statistiques du dataset (total maisons, prix min/max/moyen)
+
+### Aperçu de l'application
+
+![Application Streamlit - Prédiction des Prix Immobiliers](apercu_streamlit.png)
+
+*Vue de l'application Streamlit montrant le formulaire de saisie et les résultats de prédiction*
 
 ---
 
@@ -283,22 +298,6 @@ Les contributions sont les bienvenues ! Pour contribuer :
 - Mettre à jour la documentation si nécessaire
 
 ---
-
-## Licence
-
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
----
-
-## Auteurs
-
-- **Votre Nom** - *Développement initial* - [Votre GitHub](https://github.com/votreprofil)
-
-## Remerciements
-
-- Snowflake pour la plateforme ML
-- L'équipe du workshop Data Engineering et ML
-- La communauté open-source
 
 ## Auteur
 
