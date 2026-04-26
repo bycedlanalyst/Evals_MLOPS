@@ -45,6 +45,7 @@ GOLD   — Encodage des variables catégorielles (0/1, ordinal)
    │
    ▼
 ML     — Modèles enregistrés, prédictions, Registry
+```
 
 ---
 
@@ -191,6 +192,8 @@ Une application **Streamlit in Snowflake** permet aux utilisateurs métier d'int
 - Indication de la gamme de prix (Bas / Moyen / Élevé)
 - Récapitulatif des caractéristiques saisies
 
+![Application Streamlit](screenshot_streamlit.png) <!-- Placeholder for screenshot -->
+
 ---
 
 ## Installation et Configuration
@@ -280,6 +283,22 @@ Les contributions sont les bienvenues ! Pour contribuer :
 - Mettre à jour la documentation si nécessaire
 
 ---
+
+## Licence
+
+Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+
+---
+
+## Auteurs
+
+- **Votre Nom** - *Développement initial* - [Votre GitHub](https://github.com/votreprofil)
+
+## Remerciements
+
+- Snowflake pour la plateforme ML
+- L'équipe du workshop Data Engineering et ML
+- La communauté open-source
 
 ## Auteur
 
